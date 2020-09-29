@@ -1,8 +1,8 @@
-# Simple websocket-client
-The purpose of this utility is to test binding to a websocket for FHIR Subscriptions.
+# $PROJECT_NAME
+$PROJECT_DESCRIPTION
 
 # Installation
 Run `install.sh`
 
 # How to run
-`npm run start -- -s <subscription_id> -e <endpoint>`
+$HOW_TO_RUN

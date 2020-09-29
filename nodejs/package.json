@@ -1,8 +1,8 @@
 {
-  "name": "websocket-client",
+  "name": "$PROJECT_NAME",
   "version": "1.0.0",
-  "description": "Simple websocket client to bind to Subscription resource",
-  "main": "./dist/websocket-client.js",
+  "description": "$PROJECT_DESCRIPTION",
+  "main": "./dist/$MAIN.JS",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,18 +11,16 @@
     "format": "prettier 'src/**/*.ts' --write",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "start": "node ./dist/websocket-client.js"
+    "start": "node ./dist/$MAIN.js"
   },
   "author": "Doug Morand",
-  "license": "Commure, Inc.",
+  "license": "UNLICENSED",
   "dependencies": {
-    "minimist": "^1.2.5",
-    "ws": "^7.3.1"
+    "minimist": "^1.2.5"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.0",
     "@types/node": "^14.11.2",
-    "@types/ws": "^7.2.6",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
     "eslint": "^7.9.0",
